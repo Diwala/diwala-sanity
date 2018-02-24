@@ -6,8 +6,10 @@ import category from './category'
 import partners from './partners'
 import post from './post'
 import author from './author'
+import texts from './texts'
+import textObject from './text-object'
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([blockContent, post, author, category, partners])
+  types: schemaTypes.concat([blockContent, post, author, category, partners, texts, textObject])
 })
