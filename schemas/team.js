@@ -2,6 +2,9 @@ export default {
   name: 'teamMember',
   title: 'Team',
   type: 'document',
+  fieldsets: [
+    {name: 'social', title: 'Social profile'}
+  ],
   fields: [
     {
       name: 'name',
@@ -33,10 +36,17 @@ export default {
       type: 'string'
     },
     {
-      name: 'socialProfile',
-      title: 'Social Profile',
-      type: 'string'
+      name: 'linkedin',
+      title: 'Linkedin',
+      type: 'string',
+      fieldset: 'social'
     },
+    {
+      name: 'twitter',
+      title: 'Twiiter',
+      type: 'string',
+      fieldset: 'social'
+    }
   ],
   preview: {
     select: {
