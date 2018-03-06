@@ -33,9 +33,9 @@ export default {
       type: 'string'
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text'
+      name: 'socialProfile',
+      title: 'Social Profile',
+      type: 'string'
     },
   ],
   preview: {
