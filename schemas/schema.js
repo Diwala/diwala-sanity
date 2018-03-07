@@ -9,8 +9,19 @@ import author from './author'
 import texts from './texts'
 import textObject from './text-object'
 import team from './team'
+import picture from './picture';
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([blockContent, post, author, category, partners, texts, textObject, team])
+  types: schemaTypes.concat([
+    author,
+    blockContent,
+    category,
+    partners,
+    picture,
+    post,
+    team,
+    texts,
+    textObject
+  ])
 })
