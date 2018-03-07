@@ -18,7 +18,10 @@ export default {
       options: {
         list: [
           {title: 'Core', value: 'core'},
-          {title: 'Mentor', value: 'mentor'}
+          {title: 'Mentor', value: 'mentor'},
+          {title: 'Ambassador', value: 'ambassador'},
+          {title: 'Tech team', value: 'tech-team'},
+          {title: 'Contributor', value: 'contributor'}
         ],
       }
     },
@@ -48,7 +51,7 @@ export default {
     },
     {
       name: 'twitter',
-      title: 'Twiiter',
+      title: 'Twitter',
       type: 'string',
       fieldset: 'social'
     }
@@ -65,7 +68,6 @@ export default {
   preview: {
     select: {
       title: 'name',
-      title: 'title',
       media: 'image'
     }
   }
