@@ -6,7 +6,8 @@ export default {
     {
       type: 'string',
       title: 'Name',
-      name: 'name'
+      name: 'name',
+      description: 'Used by the webpage to fetch picture; needs to be unique'
     },
     {
       type: 'image',
