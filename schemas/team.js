@@ -23,6 +23,11 @@ export default {
       }
     },
     {
+      name: 'order',
+      title: 'Order',
+      type: 'number'
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
@@ -46,6 +51,15 @@ export default {
       title: 'Twiiter',
       type: 'string',
       fieldset: 'social'
+    }
+  ],
+  orderings: [
+    {
+      title: 'Order',
+      name: 'order',
+      by: [
+        {field: 'order', direction: 'asc'}
+      ]
     }
   ],
   preview: {

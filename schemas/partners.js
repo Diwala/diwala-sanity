@@ -19,6 +19,11 @@ export default {
       }
     },
     {
+      name: 'order',
+      title: 'Order',
+      type: 'number'
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
@@ -37,6 +42,15 @@ export default {
           styles: [{title: 'Normal', value: 'normal'}],
           lists: []
         }
+      ]
+    }
+  ],
+  orderings: [
+    {
+      title: 'Order',
+      name: 'order',
+      by: [
+        {field: 'order', direction: 'asc'}
       ]
     }
   ],
