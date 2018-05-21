@@ -14,15 +14,15 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^0.124.9",
-    "@sanity/components": "^0.124.11",
-    "@sanity/core": "^0.124.9",
-    "@sanity/default-layout": "^0.124.11",
-    "@sanity/default-login": "^0.124.0",
-    "@sanity/desk-tool": "^0.124.11",
-    "@sanity/vision": "^0.124.11",
-    "react": "^15.6",
-    "react-dom": "^15.6"
+    "@sanity/base": "^0.131.0",
+    "@sanity/components": "^0.131.0",
+    "@sanity/core": "^0.131.0",
+    "@sanity/default-layout": "^0.131.2",
+    "@sanity/default-login": "^0.131.0",
+    "@sanity/desk-tool": "^0.131.2",
+    "@sanity/vision": "^0.131.2",
+    "react": "^16.2",
+    "react-dom": "^16.2"
   },
   "devDependencies": {},
   "repository": {

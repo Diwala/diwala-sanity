@@ -5,7 +5,7 @@
   },
   "api": {
     "projectId": "jgfkj4nx",
-    "dataset": "production"
+    "dataset": "certificates-dev"
   },
   "plugins": [
     "@sanity/base",
