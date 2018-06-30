@@ -18,5 +18,10 @@ export default {
       title: 'Url',
       type: 'string'
     },
+    {
+      name: 'quote',
+      title: 'Quote',
+      type: 'string'
+    },
   ],
 }
