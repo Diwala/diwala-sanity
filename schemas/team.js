@@ -54,6 +54,12 @@ export default {
       title: 'Twitter',
       type: 'string',
       fieldset: 'social'
+    },
+    {
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+      fieldset: 'social'
     }
   ],
   orderings: [
