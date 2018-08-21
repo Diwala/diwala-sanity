@@ -5,6 +5,7 @@ import blockContent from './blockContent'
 import partners from './partners'
 import texts from './texts'
 import news from './news-list'
+import blog from './blog-list'
 import textObject from './text-object'
 import team from './team'
 import picture from './picture';
@@ -18,6 +19,7 @@ export default createSchema({
     team,
     texts,
     textObject,
-    news
+    news,
+    blog
   ])
 })
