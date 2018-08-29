@@ -4,29 +4,20 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'image1',
-      title: 'Image1',
-      type: 'image'
-    },
-    {
       name: 'title',
       title: 'Title',
       type: 'string'
     },
     {
-      name: 'text1',
-      title: 'Text1',
+      name: 'author',
+      title: 'Author',
       type: 'string'
     },
     {
-      name: 'image2',
-      title: 'Image2',
-      type: 'image'
-    },
-    {
-      name: 'text2',
-      title: 'Text2',
-      type: 'string'
+      name: 'body',
+      title: 'Body',
+      type: 'array',
+      of: [{type: 'block'}]
     },
   ],
 }
