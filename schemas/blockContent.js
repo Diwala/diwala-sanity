@@ -36,6 +36,10 @@ export default {
 
     {
       type: 'image',
+      asset: {
+        _ref: 'string',
+        _type: 'string'
+      },
       options: {hotspot: true}
     }
   ]
