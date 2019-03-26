@@ -9,6 +9,7 @@ import blog from './blog-list'
 import textObject from './text-object'
 import team from './team'
 import picture from './picture';
+import privacyPolicy from './privacy-policy';
 
 export default createSchema({
   name: 'default',
@@ -20,6 +21,7 @@ export default createSchema({
     texts,
     textObject,
     news,
-    blog
+    blog,
+    privacyPolicy
   ])
 })
