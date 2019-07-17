@@ -14,6 +14,11 @@ export default {
       type: 'date'
     },
     {
+      name: 'content_table',
+      title: 'Table of contents',
+      type: 'blockContent'
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent'
